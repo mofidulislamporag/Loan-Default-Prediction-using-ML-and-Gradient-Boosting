@@ -3,11 +3,14 @@ Here's a comprehensive `README.md` file for your GitHub project:
 ```
 # Loan Default Risk Analysis using Machine Learning
 
-A comprehensive machine learning project that predicts loan default risk using Decision Trees and Ensemble Methods. This project demonstrates end-to-end data science workflow from data exploration to model deployment.
+A comprehensive machine learning project that predicts loan default risk using Decision Trees and Ensemble Methods.
+This project demonstrates end-to-end data science workflow from data exploration to model deployment.
 
 ## 📊 Project Overview
 
-This project analyzes loan application data to predict the likelihood of loan defaults. Using various machine learning algorithms including Decision Trees, Random Forest, and Gradient Boosting, we build predictive models to identify high-risk loan applicants, helping financial institutions make better lending decisions.
+This project analyzes loan application data to predict the likelihood of loan defaults. Using various machine learning algorithms
+including Decision Trees, Random Forest, and Gradient Boosting, we build predictive models to identify high-risk loan applicants,
+helping financial institutions make better lending decisions.
 
 ### Key Features
 - **Data Exploration & Visualization**: Comprehensive EDA to understand data patterns
@@ -61,12 +64,13 @@ The dataset contains 5,000 loan applications with the following features:
 ## 📊 Results
 
 ### Model Performance Comparison
-| Model | Accuracy | Precision | Recall | F1-Score | ROC-AUC |
+| Model |    Accuracy |   Precision |   Recall |   F1-Score |   ROC-AUC |
 |-------|----------|-----------|--------|----------|---------|
-| Decision Tree | 0.85 | 0.78 | 0.72 | 0.75 | 0.88 |
-| Random Forest | 0.89 | 0.82 | 0.80 | 0.81 | 0.93 |
-
-| Gradient Boosting | 0.88 | 0.81 | 0.78 | 0.79 | 0.92 |
+| Decision Tree |  0.74   |    0.17 |    0.32 |    0.23 |    0.56 |
+| Decision Tree(Tuned) |   0.77 |   0.19 |   0.28 |   0.22 |   0.59 |
+| Random Forest |    0.82 |    0.24 |    0.23 |    0.23 |    0.69 |
+| Random Forest(Tuned) |   0.82 |   0.24 |   0.23 |   0.24 |   0.69 |
+| Gradient Boosting |   0.84 |   0.27 |   0.23 |   0.25 |   0.70 |
 
 ### Key Findings
 - **Random Forest** achieved the best overall performance
